@@ -1,7 +1,7 @@
 
 
 % read in data
-M = readmatrix("C:\Users\mpjw\OneDrive - Loughborough University\2_Lecture Notes\MATERIALS MODELLING\coursework\BulkModulus.csv", Range="B2");
+M = readmatrix(" enter-your-directory\BulkModulus.csv", Range="B2");
 
 % Seperate out the output and input data, ready for fitting
 bulkMod = M(:,5); % k = bulk modulus, output parameters

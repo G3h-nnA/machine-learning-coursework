@@ -1,6 +1,6 @@
 
 % Read in data
-M = readmatrix("C:\Users\mpjw\OneDrive - Loughborough University\2_Lecture Notes\MATERIALS MODELLING\coursework\temp.txt");
+M = readmatrix(" enter-your-own-directory ");
 set1 = [1:100]; set2 = [101:200]; set3 = [201:300];
 
 % Each iteration separate into 10 blocks of 10, for config [1, 1], [1,2]... till [10,10]
